@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <title>Project</title>
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />  
+</head>
+<body>
+    <div class="container">
+        <div id="left">
+            <h3>AWARD WINNING<br></h3>
+            <h1>DIGITAL MARKETING<br>AGENCY</h1>
+            <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque<br></p>
+            <p>vitae ante at elit fringilla ac at purus, morbi sed lacus nec risus finibus<br></p>
+            <p>feugiat et fermentum</p>
+            <a href="form.html"><button class="button">Contact Us</button></a>
+        </div>
+        <div id="right"></div>
+    </div>
+    <h3>WHAT WE DO</h3>
+    <div class="services">
+        <h1>SERVICES PROVIDE <br>FOR YOU</h1>
+        <p>Morbi sed locus nec risus finibus at fermentum nibh Pellentesque<br><br> vitae ante at elit fringilla ac at purus, morbi sed lacus nec risus finibus<br><br> feugiat et fermentum</p>
+    </div>
+
+    <section class="slider_container">
+        <div class="container2">
+            <div class="swiper img_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/box1.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/box2.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box card3">
+                            <div class="symbol">
+                                <div class="upper_symbol">
+                                    <p>...</p>
+                                    <h5>_</h5>
+                                </div>
+                                <div class="lower_symbol">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                            </div>
+                            <h4>WEB DEVLOPMENT</h4>
+                            <P>Morbi sed lacus nec risus finibus fougiat</P>
+                            <p>et fermentum nibh. Pellentesque</p>
+                            <a href="https://www.fylehq.com/"><button>READ MORE &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long"></i></button></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/box4.png">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/box5.jpg">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <img src="images/box6.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <div class="our_project">
+        <h3>OUR PROJECT</h3>
+        <h1>WHY WE ARE BEST</h1>
+        <div class="picture">
+            <div class="left_picture">
+                <img id="main-image">
+            </div>
+            <div class="right_picture">
+                <div class="box1" onclick="changeImage('images/img1.webp')">
+                    <h4>Genderless Kei - Japan's Hot</h4>
+                    <p>Set to launch on the manufacturer's<br></p>
+                    <p>new A330neo aircraft in 2017. it's <br></p>
+                    <p>offering lots of</p>
+                </div>
+                <div class="box2" onclick="changeImage('images/left_picture.png')">
+                    <h4>Better Strategy & Quality</h4>
+                    <p>Set to launch on the manufacturer's<br></p>
+                    <p>new A330neo aircraft in 2017. it's <br></p>
+                    <p>offering lots of</p>
+                </div>
+                <div class="box3" onclick="changeImage('images/img2.webp')">
+                    <h4>Genderless Kei - Japan's Hot</h4>
+                    <p>Set to launch on the manufacturer's<br></p>
+                    <p>new A330neo aircraft in 2017. it's <br></p>
+                    <p>offering lots of</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="experts_growts">
+        <h3>EXPERTS GROWTS</h3>
+        <h1>OUR COMPANY GROWTH</h1>
+        <div class="information_growth">
+            <div class="info">
+                <i class="fa-sharp fa-solid fa-heart"></i>
+                <p>199+</p>
+                <h2>Staticfied Cutomers</h2>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-clock"></i>
+                <p>1591+</p>
+                <h2>Days Of Operation</h2>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-circle-check"></i>
+                <p>283+</p>
+                <h2>Complete Project</h2>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-trophy"></i>
+                <p>75+</p>
+                <h2>Win Awards</h2>
+            </div>
+        </div>
+    </div>
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
